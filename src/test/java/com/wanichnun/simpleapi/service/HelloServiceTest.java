@@ -23,7 +23,7 @@ public class HelloServiceTest {
 
         Map<String, Object> actual = helloService.getHello(name);
 
-        Assert.assertEquals("Hello ascend", actual.get("greeting"));
+        Assert.assertEquals("Good morning ascend", actual.get("greeting"));
         Assert.assertEquals("Your name length is 6", actual.get("info"));
     }
 }
