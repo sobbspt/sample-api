@@ -13,7 +13,7 @@ public class HelloService {
 
         Map<String, Object> response = new HashMap<>();
         response.put("greeting", message);
-        response.put("info", info);
+        response.put("failedInfo", info);
 
         return response;
     }
